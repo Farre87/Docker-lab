@@ -19,15 +19,15 @@ Detta projekt kör en komplett IT-infrastruktur med Docker containers:
 ## Mappstruktur
 
 
-[200~Docker-lab/
-├── docker-compose.yml   # Startar alla containers
-├── webserver/
-│   ├── Dockerfile       # Recept for webserver
-│   ├── nginx.conf       # nginx konfiguration
-│   └── index.html       # Webbsida
-└── database/
-├── Dockerfile       # Recept for databas
-└── init.sql         # Skapar tabeller och testdata~
+Docker-lab/
+docker-compose.yml   # Startar alla containers
+webserver/
+  ├── Dockerfile       # Recept for webserver
+  ├── nginx.conf       # nginx konfiguration
+  └── index.html       # Webbsida
+ database/
+   Dockerfile       # Recept for databas
+   init.sql         # Skapar tabeller och testdata~
 
 
 ## Krav
